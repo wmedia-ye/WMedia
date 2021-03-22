@@ -1,0 +1,167 @@
+<!doctype html>
+  <html lang="en">
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/all.min.css">
+      <link href="css/style.css" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap" rel="stylesheet">
+
+      <title>Wmedia</title>
+  </head>
+    <body>
+     
+      <div class="carv">
+          
+<svg class="wave" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+viewBox="0 0 1250 724" style="enable-background:new 0 0 1250 724;" xml:space="preserve">
+<style type="text/css">
+.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="630.3747" y1="649.85" x2="621.7321" y2="-161.9552">
+<stop  offset="0" style="stop-color:#EECED2"/>
+<stop  offset="0.4631" style="stop-color:#F26E7C"/>
+<stop  offset="0.9951" style="stop-color:#BB1E6D"/>
+</linearGradient>
+<path class="st0" d="M0,0h1250v622c-73.6,71-440.4,111-619.5-401.2C566,36.4,0,290,0,290V0z"/>
+</svg>
+        <div class="navbar">
+          <a class="logo" href="#"><img src="image/logo.png" class="logo"></a>
+          <nav>
+            <ul id="menu">
+             
+             <li><a href="#about">ABOUT</a></li> 
+             <li><a href="#service">SERVICES</a></li> 
+             <li><a href="#contact">CONTACT</a></li> 
+             <li><a href="github.com/wmedia.ye">PROTOFOLIO</a></li> 
+            </ul>
+          </nav>
+           <img src="image/more.png" class="morelogo" onclick="menushow()" >
+       
+        </div>
+  <div class="first-section">
+    <div class="wmedia">
+      <h2> Hello there, <span>WMedia</span> is Here!</h2> 
+       <!-- <h3> We do <span class="typed" data-typed-items="Web Development, Web Design, Graphic Design">Web Developments</span></h3> -->
+       <h3><a href="#about" class="typewrite" data-period="500" data-type='[ "Hi, I am Alia.", "Hi, I am Sana.","We listen", "We care!", "","Contact us" ]'>
+          <span class="wrap"></span>
+        </a>
+      </h3>
+      <p>A full service graphic design & web development agency.</br>Made by women to the world.</p>
+      <div class="socialmedia ">
+        <a href="https://www.twitter.com/Wmedia_ye" ><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/wmedia.ye" ><i class="fab fa-instagram-square"></i></a>
+        <a href="https://www.facebook.com/wmedia.ye" ><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.github.com/wmedia-ye" ><i class="fab fa-github-square"></i></a>
+      </div> 
+    </div>
+	<img src="image/Picture2.png" class="home-image">
+	
+</div>  
+
+ </div>
+ <!--First Section ends here--> 
+ 
+  <div id="service" class="tag second-section ">
+
+   <img src="image/Picture3.png" class="home-image">
+   <div>
+    <h2> Web Development Services</h2> 
+    <p>We have experience in all facets of web development to help our clients reach their full potential.</br> Put your business online, earn more sales and discover more leads.</p>
+  </div>
+  </div>
+
+  <div class="tag third-section ">
+    <div> 
+      <h2>Graphic Design</h2> 
+      <p>A website should not just draw attention.</br> The role of a website is to attract and engage the user,
+      </br> as well as communicate your brand </p>
+    </div>
+  <img src="image/Picture1.png" class="home-image">
+  </div>
+  <div id="about" class="tag forth-section ">
+  </br>
+    <h2>Our team</h2>
+    <div class="teams">
+      <div class="team">
+        <img src="image/person.jpg" class="team-image"></ima>
+        <h4>Sana Basalem</h4><p>Web Developer</p></div>
+      
+        <div class="team">
+          <img src="image/person.jpg" class="team-image"></ima>
+          <h4>Alia alhamed</h4><p>Web Designer</p></div>
+        
+    </div>
+
+  </div>
+      </div>
+      <footer class="tag">
+        <div id="contact" class="fo">
+          </br></br>
+          <p class="let">LET's MAKE SOMETHING TOGTHER</p>
+          <p class="let1">WMedia is a fast way to start your responsive web design projects that harnesses the power of programming </p>
+          <a  class="contact-btn" onclick="showContact()">CONTACT</a>
+          <!-- <button class="contact-btn">CONTACT</button> -->
+          </br></br>
+          <div class="contact-form">
+          <form action="" method="post" role="form">
+            <div>
+              <div>
+                <label for="name">Your Name</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Please enter at least 4 chars">
+                <div class="validate"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="name">Your Email</label>
+                <input type="email" class="form-control" name="email" id="email" data-rule="email" placeholder="Please enter a valid email">
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div>
+              <label for="name">Subject</label>
+              <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+              <div class="validate"></div>
+            </div>
+            <div>
+              <label for="name">Message</label>
+              <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+              <div class="validate"></div>
+            </div>
+            <!-- <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div> -->
+            <!-- <div class="text-center"><button type="submit">Send Message</button></div> -->
+          </form>
+        </div>
+        </div>
+        <div class="fo1">
+          <!-- </br></br></br> -->
+
+        <div class="iconn tag">
+          <a href="https://www.twitter.com/Wmedia_ye" ><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/wmedia.ye" ><i class="fab fa-instagram-square"></i></a>
+        <a href="https://www.facebook.com/wmedia.ye" ><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.github.com/wmedia-ye" ><i class="fab fa-github-square"></i></a>
+          </div>
+          <div class="foot-contact tag">
+          <p><a href="#">wmedia.ye@gmail.com</a></p>
+          <p>Developed by <i class="far fa-copyright"></i> WMEDIA</p>
+          <!-- </br></br></br> -->
+        </div>
+
+        </div>
+
+    </footer>
+    
+    <a href="" class="back-to-top" style="display: inline; text-decoration: none;"><i class="fas fa-chevron-circle-up"></i></a>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js" ></script>
+  </body>
+</html>
